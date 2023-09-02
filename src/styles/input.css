@@ -13,6 +13,14 @@
 
 @layer components{
     .link{
-        @apply font-semibold cursor-pointer
+        @apply font-semibold cursor-pointer;
+    }
+
+    .hidemenu{
+        @apply lg:block sm:hidden;
+    }
+
+    .hidemenu2{
+        @apply lg:hidden sm:block mr-8;
     }
 }

@@ -539,6 +539,34 @@ video {
   font-weight: 600;
 }
 
+@media (min-width: 640px) {
+  .hidemenu {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hidemenu {
+    display: block;
+  }
+}
+
+.hidemenu2 {
+  margin-right: 2rem;
+}
+
+@media (min-width: 640px) {
+  .hidemenu2 {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hidemenu2 {
+    display: none;
+  }
+}
+
 .absolute {
   position: absolute;
 }
